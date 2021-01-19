@@ -1,0 +1,67 @@
+@media only screen and (max-width: 680px) {
+    .masthead {
+        background-size:contain;
+        background-image: width:100%;
+    }
+}
+.yellText {
+    color: rgba(255, 255, 0, 0.6);
+}
+.about-section {
+    padding-top: 4rem;
+}
+#mainNav {
+    background-color: black;
+    
+}
+.navbar-shrink {
+    background-color:black;
+    
+}
+#mainNav .navbar-brand {
+    color: yellow;
+}
+#mainNav .nav-link {
+    color: rgba(255, 255, 0, 0.6);
+}
+#mainNav.navbar-shrink .nav-link {
+    color: rgba(255, 255, 0, 0.6);
+}
+#mainNav.navbar-shrink .navbar-brand {
+    color: yellow;
+}
+figure img {
+    width:300px;
+    height:200px;
+    padding: 5px;
+}
+figure {
+    width:300px;
+    justify-content: space-evenly;
+}
+.h2Yell {
+    margin-bottom: 1.5rem;
+    color:yellow;
+}
+.masthead h1 {
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    line-height: 7.5rem;
+
+}
+.figure-caption {
+    color: rgba(255, 255, 0, 0.6)
+}
+.tourHead {
+    color:yellow;
+}
+.tourInfo {
+    color: rgba(255, 255, 0, 0.6)
+}
+
+@media only screen and (min-width: 768px) {
+    .projects-section .featured-text {
+        padding: 0 0 0 2.5rem;
+        border-left: 0rem;
+    }
+}
